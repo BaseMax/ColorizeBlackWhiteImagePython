@@ -1,4 +1,5 @@
 models/colorization_release_v2.caffemodel
+output.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

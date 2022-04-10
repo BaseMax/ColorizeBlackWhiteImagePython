@@ -2,6 +2,8 @@
 
 Colorize black & white images, using machine learning in Python.
 
+![Colorize Black&White Images Python](demo.png)
+
 ## Model
 
 - `colorization_release_v2.caffemodel`: It is a pre-trained model stored in the Caffe framework’s format that can be used to predict new unseen data.

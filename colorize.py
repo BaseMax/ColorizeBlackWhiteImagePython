@@ -38,3 +38,7 @@ cv2.imshow("Colorized", colorized)
 cv2.imshow("BW Image", bw_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+# Saving the image in desired path
+RGB_BGR = cv2.cvtColor(RGB_colored, cv2.COLOR_RGB2BGR)
+cv2.imwrite("new.jpg", RGB_BGR)

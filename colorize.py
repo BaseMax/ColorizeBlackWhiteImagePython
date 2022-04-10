@@ -1,13 +1,13 @@
-from cv2 import norm
-import numpy as np
 import cv2
+import numpy as np
+from cv2 import norm
 from torch import normal
 
 prototxt_path = 'models/colorization_deploy_v2.prototxt'
 model_path = 'models/colorization_release_v2.caffemodel'
 kernel_path = 'models/pts_in_hull.npy'
 
-image_path = 'car-gray.jpg'
+# image_path = 'car-gray.jpg'
 image_path = 'face-gray.jpg'
 
 net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
@@ -41,5 +41,5 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # Saving the image in desired path
-RGB_BGR = cv2.cvtColor(RGB_colored, cv2.COLOR_RGB2BGR)
-cv2.imwrite("output.jpg", RGB_BGR)
+# cv2.imwrite("car-output.jpg", colorized)
+cv2.imwrite("face-output.jpg", colorized)

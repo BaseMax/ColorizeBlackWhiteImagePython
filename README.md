@@ -8,10 +8,12 @@
 
 ### Sources
 
-Note: this is not mine and I used another model which is available on the internet. for reading more you can look at following links:
+Note: This is not mine and I used another model which is available on the internet. For reading more you can look at following links:
 
 - https://drive.google.com/drive/folders/1FaDajjtAsntF_Sw5gqF0WyakviA5l8-a
 - https://modelzoo.co/model/colorful-image-colorization
 - https://github.com/opencv/opencv/blob/master/samples/dnn/colorization.py
 - https://github.com/richzhang/colorization/blob/caffe/colorization/resources/pts_in_hull.npy
 - https://github.com/richzhang/colorization/tree/caffe/colorization/models
+
+Thanks all and also great OpenCV lib.

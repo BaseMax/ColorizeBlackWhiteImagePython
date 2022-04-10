@@ -7,7 +7,7 @@ prototxt_path = 'models/colorization_deploy_v2.prototxt'
 model_path = 'models/colorization_release_v2.caffemodel'
 kernel_path = 'models/pts_in_hull.npy'
 
-image_path = 'lion.jpg'
+image_path = 'car-gray.jpg'
 
 net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
 points = np.load(kernel_path)
@@ -41,4 +41,4 @@ cv2.destroyAllWindows()
 
 # Saving the image in desired path
 RGB_BGR = cv2.cvtColor(RGB_colored, cv2.COLOR_RGB2BGR)
-cv2.imwrite("new.jpg", RGB_BGR)
+cv2.imwrite("output.jpg", RGB_BGR)

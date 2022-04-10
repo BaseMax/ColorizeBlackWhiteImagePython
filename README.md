@@ -8,7 +8,7 @@ Colorize black & white images, using machine learning in Python.
 - `colorization_deploy_v2.prototxt`: It consists of different parameters that define the network and it also helps in deploying the Caffe model.
 - `pts_in_hull.npy`: It is a NumPy file that stores the cluster center points in NumPy format. It consists of 313 cluster kernels, i.e (0-312).
 
-For downloading the files, you can check click [here](https://drive.google.com/drive/folders/1FaDajjtAsntF_Sw5gqF0WyakviA5l8-a).
+For downloading the files, click [here](https://drive.google.com/drive/folders/1FaDajjtAsntF_Sw5gqF0WyakviA5l8-a).
 
 ### Sources
 

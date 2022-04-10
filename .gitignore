@@ -1,3 +1,5 @@
+models/colorization_release_v2.caffemodel
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

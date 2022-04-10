@@ -2,7 +2,10 @@
 
 Colorize black & white images, using machine learning in Python.
 
-![Colorize Black&White Images Python](demo.png)
+| Original Image | Gray image | Colorized image by app |
+| -------------- | ---------- | --------------------- |
+| ![](face.jpg)   | ![](face-gray.jpg) | ![](face-output.jpg)  |
+| ![](car.jpg)   | ![](car-gray.jpg) | ![](car-output.jpg)  |
 
 ## Model
 

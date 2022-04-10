@@ -4,9 +4,9 @@ Colorize black & white images, using machine learning in Python.
 
 | Original Image | Gray image | Colorized image by app |
 | -------------- | ---------- | --------------------- |
+| ![](nature.jpg)   | ![](nature-gray.jpg) | ![](nature-output.jpg)  |
 | ![](face.jpg)   | ![](face-gray.jpg) | ![](face-output.jpg)  |
 | ![](car.jpg)   | ![](car-gray.jpg) | ![](car-output.jpg)  |
-| ![](nature.jpg)   | ![](nature-gray.jpg) | ![](nature-output.jpg)  |
 
 ## Model
 

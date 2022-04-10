@@ -9,6 +9,7 @@ kernel_path = 'models/pts_in_hull.npy'
 
 # image_path = 'car-gray.jpg'
 image_path = 'face-gray.jpg'
+image_path = 'nature-gray.jpg'
 
 net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
 points = np.load(kernel_path)
@@ -42,4 +43,5 @@ cv2.destroyAllWindows()
 
 # Saving the image in desired path
 # cv2.imwrite("car-output.jpg", colorized)
-cv2.imwrite("face-output.jpg", colorized)
+# cv2.imwrite("face-output.jpg", colorized)
+cv2.imwrite("nature-output.jpg", colorized)
